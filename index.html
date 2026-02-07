@@ -3,6 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+      content="Masoom Photo State in Dalsinghsarai provides Xerox, printout, color print, lamination, binding, passport photo ,online form filling and many more services. Upload documents and pay online." />
+
+  <meta name="keywords"
+      content="Masoom Photo State, Xerox shop in Dalsinghsarai, photocopy near me, printout Dalsinghsarai, passport photo Dalsinghsarai" />
+
+  <meta name="author" content="Masoom Photo State">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Masoom Photo State | Xerox & Printing - Dalsinghsarai</title>
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -91,6 +100,11 @@
         <div class="service-card">📌 Lamination</div>
         <div class="service-card">📚 Binding</div>
         <div class="service-card">🧾 Online Form Filling</div>
+        <div class="service-card">🛂 Driving Licence Apply</div>
+        <div class="service-card">🗳️ Ration Card Apply</div>
+        <div class="service-card">📜 Dakhil Kharij</div>
+        <div class="service-card">💳 Rashid Online</div>
+        <div class="service-card">Many More Services</div>
       </div>
     </div>
   </section>
@@ -104,7 +118,7 @@
     <div class="price-table">
       <div class="price-row">
         <span>Xerox (B/W)</span>
-        <b>₹2 / page</b>
+        <b>₹1.5 / page</b>
       </div>
       <div class="price-row">
         <span>Printout (B/W)</span>
@@ -120,20 +134,42 @@
       </div>
       <div class="price-row">
         <span>Lamination</span>
-        <b>₹15</b>
+        <b>₹10</b>
       </div>
       <div class="price-row">
         <span>Binding</span>
-        <b>₹50</b>
+        <b>₹35</b>
       </div>
       <div class="price-row">
         <span>Passport Photo</span>
-        <b>₹25</b>
+        <b>₹5/ piece</b>
       </div>
     </div>
   </div>
 </section>
 
+  <!-- FILE UPLOAD -->
+<section class="section light" id="upload">
+  <div class="container">
+    <h2 class="section-title">Upload Your Document</h2>
+    <p class="section-subtitle">
+      Upload file and send it to us on WhatsApp for printing
+    </p>
+
+    <div class="upload-box">
+      <input type="file" id="fileInput" accept=".pdf,.jpg,.jpeg,.png" />
+      <button class="btn primary" onclick="sendToWhatsApp()">
+        📤 Upload & Send on WhatsApp
+      </button>
+
+      <p class="note">
+        Supported: PDF, JPG, PNG <br />
+        File will be sent via WhatsApp
+      </p>
+    </div>
+  </div>
+</section>
+  
 <!-- PAYMENT -->
 <section class="section" id="payment">
   <div class="container">
@@ -147,7 +183,9 @@
 
       <p><b>UPI Accepted:</b> Google Pay, PhonePe, Paytm</p>
       <p class="note">
-        Payment ke baad WhatsApp par screenshot bheje ✔
+          ✔ Secure UPI Payment <br>
+          ✔ No extra charges <br>
+          ✔ Payment ke baad WhatsApp par screenshot bheje 
       </p>
 
       <a class="btn whatsapp" target="_blank"
@@ -204,7 +242,6 @@
       <div class="map-card">
         <h3>Google Map</h3>
 
-        <!-- Replace this iframe with your shop's exact map embed -->
         <iframe
           src="https://www.google.com/maps?q=Masoom Photo State,Dalsinghsarai&output=embed"
           width="100%" height="260" style="border:0;" allowfullscreen="" loading="lazy">
@@ -229,4 +266,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
